@@ -7,29 +7,36 @@
     <title>Nuclear Medicine Chatbot</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: #f8f8f8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
             color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
             text-align: center;
-            padding: 40px 20px;
         }
         h1 {
-            font-size: 2em;
+            font-size: 2rem;
             margin-bottom: 0.5em;
         }
         p {
-            font-size: 1.1em;
+            font-size: 1.1rem;
             margin-bottom: 2em;
         }
         a.button {
-            background-color: #007bff;
-            color: white;
-            padding: 15px 30px;
-            text-decoration: none;
-            font-size: 1.1em;
-            border-radius: 8px;
             display: inline-block;
-            transition: background-color 0.3s;
+            padding: 15px 30px;
+            font-size: 1.1rem;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
         }
         a.button:hover {
             background-color: #0056b3;
@@ -39,8 +46,6 @@
 <body>
     <h1>🤖 Nuclear Medicine Chatbot</h1>
     <p>Ask questions about PET/CT scans in Hindi or English.</p>
-    <a href="https://huggingface.co/spaces/YOUR_USERNAME/nucmed-chatbot" target="_blank" class="button">
-        💬 Launch Chatbot
-    </a>
+    <a href="https://huggingface.co/spaces/YOUR_USERNAME/nucmed-chatbot" target="_blank" class="button">💬 Launch Chatbot</a>
 </body>
 </html>
