@@ -19,11 +19,16 @@
             padding: 20px;
             text-align: center;
         }
-        h1 {
-            font-size: 2rem;
-            margin-bottom: 0.5em;
+        img.logo {
+            width: 130px;
+            height: auto;
+            margin-bottom: 20px;
         }
-        p {
+        h1 {
+            font-size: 1.9rem;
+            margin-bottom: 0.4em;
+        }
+        p.description {
             font-size: 1.1rem;
             margin-bottom: 2em;
         }
@@ -41,11 +46,18 @@
         a.button:hover {
             background-color: #0056b3;
         }
+        p.credit {
+            margin-top: 40px;
+            font-size: 0.95rem;
+            color: #666;
+        }
     </style>
 </head>
 <body>
-    <h1>🤖 Nuclear Medicine Chatbot</h1>
-    <p>Ask questions about PET/CT scans in Hindi or English.</p>
+    <img src="The_Official_Seal_of_AIIMS_Jodhpur.png" alt="AIIMS Jodhpur Logo" class="logo">
+    <h1>Nuclear Medicine Chatbot</h1>
+    <p class="description">Ask questions about PET/CT scans in Hindi or English.</p>
     <a href="https://huggingface.co/spaces/doctorirregular/nuclearmed_chatbot" target="_blank" class="button">💬 Launch Chatbot</a>
+    <p class="credit">Made by Dr. Malay Mishra (JR), Department of Nuclear Medicine, AIIMS Jodhpur</p>
 </body>
 </html>
